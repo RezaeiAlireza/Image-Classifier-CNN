@@ -5,11 +5,11 @@ This repository contains the implementation of an Image Classifier using Convolu
 The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 classes, with 6,000 images per class. There are 50,000 training images and 10,000 test images. The dataset is divided into five training batches and one test batch, each with 10,000 images. The test batch contains exactly 1,000 randomly-selected images from each class. The training batches contain the remaining images in random order, but some training batches may contain more images from one class than another. Between them, the training batches contain exactly 5,000 images from each class.
 
 ## Dependencies
-Python 3.x
-TensorFlow
-Keras
-NumPy
-Matplotlib
+- Python 3.x
+- TensorFlow
+- Keras
+- NumPy
+- Matplotlib
 ## Getting Started
 Clone this repository to your local machine.
 Install the required dependencies using pip: pip install -r requirements.txt
