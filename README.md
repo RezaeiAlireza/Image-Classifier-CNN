@@ -11,11 +11,12 @@ The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 classes, with 6
 - NumPy
 - Matplotlib
 ## Getting Started
-Clone this repository to your local machine.
-Install the required dependencies using pip: pip install -r requirements.txt
-Run the main script: python image_classifier_cnn.py
+1. Clone this repository to your local machine.
+2. Install the required dependencies using pip: pip install -r requirements.txt
+3. Run the main script: python image_classifier_cnn.py
 ## Project Structure
-image_classifier_cnn.py: Main script for training and evaluating the CNN model.
+- image_classifier_cnn.py: Main script for training and evaluating the CNN model.
+- requirements.txt: Contains the required dependencies for this project.
 ## Model Architecture
 The implemented CNN consists of several convolutional and pooling layers, followed by fully connected layers and a final softmax activation function for classification. The architecture was designed to achieve high accuracy while minimizing overfitting through the use of dropout layers.
 
